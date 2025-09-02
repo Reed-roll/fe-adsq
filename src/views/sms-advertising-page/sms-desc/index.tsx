@@ -5,7 +5,7 @@ import React from "react";
 import { products } from "@/data/products";
 
 
-const layananSms = products.filter((product) => product.category === "sms");
+const layananSms = products.filter((product) => product.type === "sms");
 
 const SmsAdsDesc = () => {
   return (
